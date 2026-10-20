@@ -1,0 +1,8 @@
+{
+  "name": "Desi Musafir — Discover India, One Journey at a Time",
+  "description": "A premium Indian travel magazine, destination discovery platform, travel stories blog, and photography gallery celebrating incredible India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

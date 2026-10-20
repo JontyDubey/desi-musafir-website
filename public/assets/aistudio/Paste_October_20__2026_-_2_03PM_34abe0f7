@@ -1,0 +1,1120 @@
+# DESI MUSAFIR — COMPLETE MASTER PROMPT
+## STEP 1 ONLY: PREMIUM INDIA-ONLY FRONTEND — FREE-FIRST DEVELOPMENT
+
+Act as a senior React developer, UI/UX designer, frontend architect, accessibility specialist, and technical SEO engineer.
+
+I want to build my premium Indian travel platform called **Desi Musafir**, using Google AI Studio and free-tier tools wherever possible.
+
+The website should look like a premium travel magazine, destination discovery platform, travel blog, and travel photography gallery combined.
+
+IMPORTANT: Complete STEP 1 ONLY. Build the entire frontend UI and frontend interactions. Do not implement the backend yet.
+
+---
+
+# 1. PROJECT CONTEXT AND RULES
+
+I already have an existing Desi Musafir project.
+
+The existing project uses React, TypeScript and Vite. It may already contain Tailwind CSS, Lucide icons, Motion and other dependencies.
+
+Before making changes:
+
+1. Inspect the existing project files and package.json.
+2. Understand the current routes, components, styles and booking/enquiry features.
+3. Reuse existing compatible dependencies.
+4. Preserve the existing project structure wherever practical.
+5. Do not unnecessarily recreate or replace the entire project.
+6. Do not delete working booking or enquiry UI.
+7. Do not create a separate disconnected demo.
+8. Do not install unnecessary paid dependencies or premium UI libraries.
+9. Make the smallest reasonable dependency changes.
+10. Ensure the final project works with the existing Vite setup.
+
+If this is a fresh frontend workspace, create a complete working React + TypeScript + Vite application.
+
+## CRITICAL SCOPE LIMIT
+
+For this step, implement only:
+- Frontend UI
+- Client-side navigation
+- Responsive layouts
+- Local component state
+- Mock/sample data
+- Frontend form validation
+- Simulated interactions
+- Frontend-only admin dashboard
+- Frontend-only gallery upload interface
+- Placeholder images representing Indian destinations
+
+Do NOT implement:
+- Firebase SDK integration
+- Firebase Authentication
+- Firestore database operations
+- Cloud Functions
+- Server APIs
+- Express backend
+- SQL or database migrations
+- Real cloud image uploads
+- Real authentication or authorization
+- Paid services or subscriptions
+
+Do not pretend that simulated login, saving, publishing or uploading is connected to a real backend.
+
+Build the frontend so Firebase can be integrated in a later step without redesigning the entire application.
+
+---
+
+# 2. STRICT INDIA-ONLY TRAVEL POLICY
+
+Desi Musafir must cover **India exclusively**.
+
+Reference websites are provided for structural and editorial inspiration only:
+- The World Travel Guy
+- Lonely Planet
+- Breathe Dream Go
+- RavenousLegs
+- Experience Abu Dhabi
+
+Study their useful page structures, content hierarchy, navigation, destination browsing, image grids, article cards, and editorial layouts.
+
+Do not copy their branding, complete layouts, proprietary text, articles or images.
+
+## Absolutely forbidden
+
+- Foreign destinations
+- International travel itineraries
+- Foreign tourist attractions
+- Foreign destination demo content
+- Foreign hotel listings
+- Foreign travel categories
+- Foreign destination photography
+- International travel packages
+
+All destinations, stories, images, examples and mock records must be Indian.
+
+Examples of allowed destinations:
+- Uttarakhand: Haridwar, Rishikesh, Kedarnath, Badrinath, Auli
+- Himachal Pradesh: Shimla, Manali, Spiti Valley, Dharamshala
+- Rajasthan: Jaipur, Jaisalmer, Udaipur, Jodhpur
+- Uttar Pradesh: Varanasi, Ayodhya, Agra, Mathura
+- Madhya Pradesh: Orchha, Khajuraho, Ujjain
+- Kerala: Munnar, Wayanad, Alleppey
+- Maharashtra: Mumbai, Lonavala, Ajanta and Ellora
+- Karnataka: Hampi, Coorg, Mysuru
+- Tamil Nadu: Ooty, Madurai, Rameswaram
+- Gujarat: Kutch, Ahmedabad, Somnath
+- Odisha: Puri, Konark
+- West Bengal: Darjeeling, Kolkata, Sundarbans
+- Northeast India: Meghalaya, Assam, Sikkim, Arunachal Pradesh
+- Kashmir, Ladakh, Goa, Punjab, Haryana, Bihar, Jharkhand, Chhattisgarh, Telangana, Andhra Pradesh, and all other Indian states and union territories.
+
+These are examples, not a restriction on coverage.
+
+Every mock destination must have country = India.
+
+Use realistic sample content but do not invent precise factual claims, opening hours, ticket prices or verified travel information.
+
+---
+
+# 3. BRAND IDENTITY
+
+Brand name: Desi Musafir
+
+Brand positioning:
+A premium, trustworthy, visually rich Indian travel discovery and storytelling platform.
+
+Brand message:
+"Discover India, One Journey at a Time."
+
+Alternative headline:
+"India Is More Than a Destination. It's a Journey."
+
+Visual style:
+- Premium travel editorial
+- Cinematic Indian landscape photography
+- Modern Indian travel magazine
+- Clean, spacious composition
+- Elegant typography
+- Sophisticated image grids
+- Minimal and tasteful animation
+- Mobile-first usability
+- High visual quality without unnecessary clutter
+
+Suggested colors:
+- Warm ivory: #FAF8F3
+- Charcoal: #202522
+- Forest green: #244C3A
+- Terracotta: #B85C38
+- Muted gold: #C5A46D
+- White: #FFFFFF
+- Subtle border: #E8E5DE
+
+Use reusable CSS variables for colors, spacing, shadows, typography, borders and layout.
+
+Use a readable sans-serif font for body text and a tasteful editorial font for headings.
+
+Use Lucide icons if already installed. Do not use emoji as substitutes for all interface icons.
+
+Avoid:
+- Excessive gradients
+- Excessive rounded cards
+- Overused shadows
+- Large amounts of animation
+- Fake testimonials
+- Fake ratings
+- Fake visitor counts
+- Ads
+- Sponsored posts
+- Affiliate widgets
+- Promotional pop-ups
+- Unnecessary third-party scripts
+
+The result must feel like an authentic travel publication, not a generic AI-generated landing page.
+
+---
+
+# 4. PLACEHOLDER IMAGES
+
+Use placeholder images of real Indian travel destinations only.
+
+Preferred image subjects:
+- Himalayan mountain landscapes
+- Haridwar and Rishikesh ghats
+- Rajasthan forts and desert landscapes
+- Kerala backwaters
+- Indian beaches
+- Indian temples and heritage sites
+- Meghalaya waterfalls
+- Indian wildlife and forests
+- Indian villages and local markets
+- Indian road trips
+
+Use a reusable image component or image-data structure.
+
+Use appropriate aspect ratios:
+- Hero: 16:9 or wide cinematic
+- Featured stories: 4:3 or 3:2
+- Article cards: 4:3
+- Gallery thumbnails: consistent grid ratios
+- Portrait features: 3:4
+
+Provide meaningful alt text for each image.
+
+Use stable image URLs from appropriate sources or reliable Indian-destination placeholders. Do not copy images from the supplied reference websites.
+
+If an external image fails, show a tasteful fallback instead of a broken image icon.
+
+Do not add foreign destination images.
+
+Do not claim placeholder photographs are original photographs taken by Desi Musafir.
+
+---
+
+# 5. MAIN WEBSITE NAVIGATION
+
+Create a responsive navigation system.
+
+Desktop navigation:
+- Home
+- Destinations
+- Travel Stories
+- Gallery
+- Travel Guides
+- About
+- Contact
+- Search icon
+- Existing booking/enquiry entry point, if already present
+
+Mobile navigation:
+- Accessible hamburger menu
+- Clear navigation labels
+- Easy-to-tap links
+- Contact and social links
+- No horizontal overflow
+
+The logo should navigate to the homepage.
+
+The header should remain visually elegant and consistent across pages.
+
+---
+
+# 6. HOMEPAGE — /
+
+Create a complete premium homepage with the following sections.
+
+## A. Hero
+
+Use a large Indian destination photograph.
+
+Headline:
+"Discover India, One Journey at a Time."
+
+Supporting text:
+"Explore India's hidden gems, timeless heritage, mountain escapes and unforgettable journeys with Desi Musafir."
+
+Include:
+- Explore Destinations button
+- Read Travel Stories button
+- Search destinations input
+- Search suggestions based on Indian places
+
+Use a tasteful text overlay where necessary to ensure readable contrast.
+
+## B. Featured Indian Destination
+
+Display a large editorial feature for a real Indian destination.
+
+Include:
+- Large photo
+- Destination name
+- State or UT
+- Short description
+- Read Guide action
+
+Use sample content only, with no fabricated travel statistics.
+
+## C. Explore India by Destination
+
+Create an image-led destination section with cards for Indian destinations.
+
+Include:
+- Destination photo
+- Destination name
+- State
+- Short description
+- Explore action
+
+Add a View All Destinations link.
+
+## D. Explore by Travel Style
+
+Create categories:
+- Mountains and Hill Stations
+- Spiritual Journeys
+- Beaches and Coastal Travel
+- Heritage and Forts
+- Road Trips
+- Wildlife and Nature
+- Adventure and Trekking
+- Food and Culture
+- Weekend Getaways
+- Budget Travel
+- Hidden Gems
+- Family Travel
+
+Each category must navigate to a filtered listing.
+
+## E. Featured Travel Stories
+
+Create an editorial layout with:
+- One large featured article
+- Supporting article cards
+- Cover images
+- Titles
+- Excerpts
+- Indian destinations
+- Categories
+- Estimated reading times
+- Publication dates for sample content
+
+Add a View All Stories action.
+
+## F. Frames of Incredible India — Gallery Preview
+
+Create a beautiful photo gallery preview featuring Indian destinations.
+
+Use a responsive grid with a mix of image sizes.
+
+Each image should be clickable and open a lightbox or full gallery.
+
+Add an Explore Full Gallery button.
+
+## G. Travel Guides
+
+Show practical guide cards for:
+- Planning an Indian trip
+- Budget travel
+- Road trip preparation
+- Packing essentials
+- Choosing the best season
+- Responsible travel
+
+Do not invent precise travel facts.
+
+## H. Plan Your Journey
+
+Provide a subtle booking/enquiry section that preserves existing functionality.
+
+Include a clear Contact Us or Plan Your Trip action.
+
+Do not turn the homepage into an advertisement.
+
+## I. Social Media Section
+
+Add a compact "Follow Desi Musafir" section with links to the official social profiles specified in Section 15.
+
+## J. Footer
+
+Include:
+- Brand introduction
+- Main navigation
+- Destinations
+- Travel Stories
+- Gallery
+- Contact
+- Phone and email
+- Instagram profiles
+- Facebook
+- Privacy Policy
+- Terms and Conditions
+
+Keep the footer clean and responsive.
+
+---
+
+# 7. DESTINATION PAGES
+
+Implement these frontend routes:
+
+- /destinations
+- /destinations/:stateSlug
+- /places/:slug
+
+## Destinations listing
+
+Requirements:
+- Responsive card grid
+- Search by destination name
+- Filter by state or union territory
+- Filter by travel category
+- Sort by name or featured status
+- Pagination or client-side incremental display
+- Empty state when no results match
+- Reset filters button
+
+All sample records must be Indian.
+
+## State or Union Territory page
+
+Show:
+- State or UT name
+- Hero image
+- Introduction
+- Popular destinations
+- Travel stories related to the region
+- Relevant travel categories
+- Breadcrumb navigation
+
+## Individual destination page
+
+Show:
+- Destination title
+- Hero image
+- State or UT
+- Introduction
+- Photo gallery
+- Popular attractions
+- Best time to visit section
+- How to reach section
+- Local transport section
+- Suggested trip duration
+- Estimated budget section
+- Suggested itinerary
+- Practical tips
+- Related stories
+- Booking or enquiry action where appropriate
+
+Because this is frontend-only, use clearly identified sample content. Do not present unverified transport information, current prices or opening hours as confirmed facts.
+
+---
+
+# 8. TRAVEL BLOG
+
+Implement these routes:
+
+- /blog
+- /blog/:slug
+- /category/:slug
+
+## Blog listing
+
+Include:
+- Featured article
+- Latest stories
+- Responsive card grid
+- Search
+- Category filters
+- State and destination filters
+- Sorting
+- Pagination or incremental loading
+
+## Article cards
+
+Each card should show:
+- Cover image
+- Category
+- Title
+- Short excerpt
+- Destination
+- Reading time
+- Publication date
+
+## Article detail page
+
+Create a polished editorial reading experience with:
+- Large cover image
+- Article title
+- Subtitle or excerpt
+- Author attribution
+- Published and updated dates
+- Reading time
+- Destination and category
+- Rich article content
+- Table of contents
+- Proper heading hierarchy
+- Image galleries
+- Captions and alt text
+- Quotes and lists where relevant
+- WhatsApp sharing
+- Facebook sharing
+- Copy Link
+- Related articles
+- Back to Stories navigation
+
+Article headings and content must be original sample content about India.
+
+Do not copy full articles from reference websites.
+
+Use a safe frontend-only content structure that can later be mapped to Firestore records.
+
+---
+
+# 9. PHOTO GALLERY — /gallery
+
+Create a dedicated public photo gallery.
+
+This is an important feature.
+
+## Public gallery UI
+
+Include:
+- Page heading: "Frames of Incredible India"
+- Introductory text
+- Large image grid or masonry-style layout
+- Search by title or destination
+- Category filters
+- State/UT filters
+- Captions
+- Destination names
+- Full-screen lightbox
+- Previous and next controls
+- Close control
+- Keyboard navigation
+- Mobile-friendly image viewing
+- Responsive layouts
+- Empty and loading states
+
+Categories:
+- Mountains
+- Spiritual Places
+- Beaches
+- Forts and Heritage
+- Waterfalls and Lakes
+- Wildlife and Nature
+- Road Trips
+- Festivals and Culture
+- Food and Local Experiences
+
+Every image must represent India.
+
+Use mock gallery data for this first step.
+
+## Admin gallery interface
+
+Build the frontend UI for:
+
+/admin/gallery
+
+Include:
+- Upload Photos button
+- Multiple file selection
+- Image preview
+- Selected image list
+- Remove selected image
+- Title input
+- Caption input
+- Alt text input
+- State/UT selector
+- Destination selector
+- Category selector
+- Optional photo credit
+- Draft/Published status
+- Save Draft button
+- Publish button
+- Search uploaded images
+- Edit and delete actions
+- Confirmation dialog before deletion
+- Upload progress UI
+
+For this step, the file picker may select local images and show previews using temporary browser object URLs.
+
+Do not implement actual cloud storage or claim files have been permanently uploaded.
+
+Label the interface clearly as a frontend prototype until the real storage backend is integrated.
+
+Structure the gallery code so Firebase Storage can be added later.
+
+---
+
+# 10. ADMIN DASHBOARD — FRONTEND ONLY
+
+Create the dashboard routes:
+
+- /admin
+- /admin/login
+- /admin/articles
+- /admin/articles/new
+- /admin/articles/:id/edit
+- /admin/gallery
+- /admin/destinations
+- /admin/categories
+- /admin/settings
+
+These are UI prototypes for Step 1.
+
+Do not implement real Firebase Authentication or database operations yet.
+
+## Login screen
+
+Create a polished admin login page with:
+- Desi Musafir logo
+- Email field
+- Password field
+- Show/hide password control
+- Sign In button
+- Forgot Password link UI
+- Validation messages
+
+Display a clear developer/demo notice explaining that authentication will be connected in a later step.
+
+Do not hardcode real credentials or pretend the login is secure.
+
+## Dashboard overview
+
+Show:
+- Total article count from mock data
+- Published article count from mock data
+- Draft article count from mock data
+- Gallery image count from mock data
+- Recent articles
+- Quick actions
+
+Clearly label mock statistics as demo data.
+
+## Article management UI
+
+Include:
+- Article list
+- Search
+- Status filter
+- Create article
+- Edit article
+- Preview
+- Save Draft
+- Publish
+- Unpublish
+- Delete confirmation
+
+## Article editor UI
+
+Fields:
+- Title
+- Slug
+- Excerpt
+- Cover image picker
+- Cover image alt text
+- Rich content editor
+- Category
+- State/UT
+- Destination
+- Author
+- SEO title
+- SEO description
+- Publication status
+
+Implement frontend controls for:
+- Headings
+- Paragraphs
+- Bold
+- Italic
+- Lists
+- Links
+- Images
+- Captions
+- Quotes
+
+If using an editor library, prefer an already-installed compatible library. Otherwise create a simple accessible editor interface without adding unnecessary dependencies.
+
+Use local state or mock services only. Keep the data model ready for later Firebase integration.
+
+## Destinations and categories UI
+
+Create simple management screens for:
+- Indian destinations
+- State/UT
+- Categories
+- Featured status
+- Image preview
+- Add/edit forms
+
+Do not create a working database integration yet.
+
+## Admin settings UI
+
+Show:
+- Brand information
+- Contact details
+- Social profile links
+- Basic SEO fields
+- Gallery display preferences
+
+The settings should be a frontend prototype using local state.
+
+---
+
+# 11. EXISTING BOOKING AND ENQUIRY FEATURES
+
+Preserve the current booking and enquiry functionality and its user interface.
+
+Inspect the existing project first.
+
+If working booking components already exist:
+- Keep their routes and UI.
+- Preserve their form fields and validation.
+- Preserve existing integrations without breaking them.
+- Reuse the existing contact and booking components.
+
+If the existing booking UI is incomplete, create a frontend booking/enquiry form with:
+- Full name
+- Phone number
+- Email
+- Indian destination
+- Preferred travel date
+- Number of travellers
+- Trip duration
+- Budget range
+- Message
+
+Add client-side validation and success/error UI.
+
+Since this is Step 1, do not create a backend submission service. Clearly indicate that actual submission integration will be completed later.
+
+Never display a false success message implying that an enquiry has been delivered to a server.
+
+Keep booking and enquiry UI integrated naturally into the travel website.
+
+---
+
+# 12. FREE-FIRST DEVELOPMENT STRATEGY
+
+The goal is to build and launch Desi Musafir using free-tier tools wherever possible.
+
+For Step 1:
+- Use React, TypeScript, Vite and existing compatible dependencies.
+- Use CSS or existing Tailwind configuration.
+- Use free/open-source icon libraries already installed.
+- Use placeholder images for Indian destinations.
+- Do not require paid UI kits.
+- Do not require paid image APIs.
+- Do not introduce paid backend services.
+- Do not require paid subscriptions.
+- Do not add unnecessary external scripts.
+
+Hosting target for later deployment:
+- Vercel free tier or Netlify free tier
+
+Backend target for a later step:
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage, subject to current project eligibility and quota requirements
+
+Use Firebase Spark/free-tier services wherever available and appropriate. Check current Firebase product eligibility and quotas during the backend stage. Do not assume every Firebase product or operation is free without limits.
+
+Do not use CloudSQL.
+
+Do not connect Firebase in Step 1.
+
+Do not claim the whole platform is production-ready or permanently free merely because the frontend has been generated.
+
+---
+
+# 13. FRONTEND ARCHITECTURE
+
+Use reusable components and clean separation of concerns.
+
+Suggested structure, adapted to the existing repository:
+
+src/
+  components/
+    layout/
+      Header.tsx
+      Footer.tsx
+      MobileMenu.tsx
+    home/
+      HeroSection.tsx
+      FeaturedDestination.tsx
+      DestinationGrid.tsx
+      FeaturedStories.tsx
+      GalleryPreview.tsx
+    destinations/
+      DestinationCard.tsx
+      DestinationFilters.tsx
+    blog/
+      ArticleCard.tsx
+      ArticleGrid.tsx
+      ArticleContent.tsx
+      TableOfContents.tsx
+      ShareButtons.tsx
+    gallery/
+      GalleryGrid.tsx
+      GalleryFilters.tsx
+      Lightbox.tsx
+      GalleryUploadForm.tsx
+    admin/
+      AdminLayout.tsx
+      AdminSidebar.tsx
+      AdminHeader.tsx
+      DashboardStats.tsx
+      ArticleEditor.tsx
+      ArticleTable.tsx
+    contact/
+      ContactLinks.tsx
+      EnquiryForm.tsx
+    ui/
+      Button.tsx
+      Input.tsx
+      Select.tsx
+      Modal.tsx
+      EmptyState.tsx
+      LoadingState.tsx
+
+  pages/
+    HomePage.tsx
+    DestinationsPage.tsx
+    StatePage.tsx
+    DestinationPage.tsx
+    BlogPage.tsx
+    ArticlePage.tsx
+    CategoryPage.tsx
+    GalleryPage.tsx
+    AboutPage.tsx
+    ContactPage.tsx
+    NotFoundPage.tsx
+    AdminLoginPage.tsx
+    AdminDashboardPage.tsx
+    AdminArticlesPage.tsx
+    AdminArticleEditorPage.tsx
+    AdminGalleryPage.tsx
+    AdminDestinationsPage.tsx
+    AdminCategoriesPage.tsx
+    AdminSettingsPage.tsx
+
+  data/
+    destinations.ts
+    articles.ts
+    gallery.ts
+    categories.ts
+
+  config/
+    site.ts
+    contact.ts
+
+  hooks/
+  types/
+  utils/
+  styles/
+
+This is a suggested structure. Do not create duplicate files if the existing project already has equivalent components.
+
+## TypeScript types
+
+Create reusable types such as:
+
+Destination
+TravelArticle
+GalleryPhoto
+TravelCategory
+ContactDetails
+BookingEnquiry
+ArticleStatus
+GalleryPhotoStatus
+
+Keep the data models consistent and suitable for later Firestore integration.
+
+## Mock data
+
+Keep mock data separate from UI components.
+
+Provide a small but visually convincing collection of Indian destination cards, article cards and gallery items.
+
+Never mix foreign destination data into mock datasets.
+
+Create simple local mock-service functions where useful, but make it obvious that they are not connected to Firebase.
+
+---
+
+# 14. INTERACTION REQUIREMENTS
+
+The frontend must be more than a static screenshot.
+
+Implement actual client-side behavior for:
+- Navigation
+- Mobile menu
+- Destination search
+- Destination filtering
+- Article search
+- Category filtering
+- Gallery filtering
+- Gallery lightbox
+- Previous/next image navigation
+- Copy article link
+- WhatsApp article sharing
+- Facebook article sharing
+- Frontend form validation
+- Admin dashboard navigation
+- Article editor inputs
+- Local draft state
+- Preview mode
+- Gallery file selection and image previews
+- Remove selected image
+- Modal open/close
+- Confirmation dialogs
+- Empty states
+- Responsive UI controls
+
+Use React state and reusable components.
+
+Do not create buttons that do nothing. If a feature requires a backend that is not part of Step 1, provide a clearly labeled demo interaction or a disabled state with a short explanation.
+
+Never claim that local demo data is permanently saved.
+
+---
+
+# 15. OFFICIAL CONTACT DETAILS AND SOCIAL MEDIA
+
+Use these exact business contact details throughout the frontend.
+
+Brand: Desi Musafir
+
+Phone and WhatsApp:
+8709349237
+
+Email:
+informy49@gmail.com
+
+Instagram Profile 1:
+https://www.instagram.com/jonty_dubey?mdxt=aDhuMXpyejhqMXNo
+
+Instagram Profile 2:
+https://www.instagram.com/desimusafir.india?vrfl=MWI4azF1cWFmMzNpbQ==
+
+Facebook:
+https://www.facebook.com/share/1GtUTyTpAu/
+
+Centralize these details in a single configuration file, such as:
+
+src/config/contact.ts
+
+Use these exact destinations in all components.
+
+## Phone link
+
+Use:
+tel:+918709349237
+
+## WhatsApp link
+
+Use:
+https://wa.me/918709349237
+
+Optionally prefill:
+"Namaste Desi Musafir! Mujhe India travel ke baare mein jaankari chahiye."
+
+Encode the message safely.
+
+## Email link
+
+Use:
+mailto:informy49@gmail.com
+
+## Instagram and Facebook
+
+Use the exact supplied URLs. Preserve the query parameters.
+
+Use proper external link security attributes where links open in a new tab.
+
+Add a "Connect With Desi Musafir" section in the footer and contact page.
+
+Display:
+- Call Us
+- WhatsApp
+- Email Us
+- Instagram — Jonty Dubey
+- Instagram — Desi Musafir India
+- Facebook — Desi Musafir
+
+Use recognizable social icons with accessible labels.
+
+Add social profile links in the contact page and footer, not on every article card.
+
+## Article sharing
+
+Add separate article-sharing buttons for:
+- WhatsApp
+- Facebook
+- Copy Link
+
+Use the actual current article URL and title rather than a hardcoded generic URL.
+
+---
+
+# 16. RESPONSIVE DESIGN AND ACCESSIBILITY
+
+The site must work on:
+- Small Android phones
+- Large Android phones
+- Tablets
+- Laptops
+- Desktop screens
+
+Requirements:
+- No horizontal overflow.
+- Accessible focus states.
+- Keyboard-operable menus and modals.
+- Correct form labels.
+- Proper heading hierarchy.
+- Meaningful image alt text.
+- Sufficient color contrast.
+- Reduced-motion support where practical.
+- Touch-friendly controls.
+- Responsive image dimensions.
+- Lazy loading for below-the-fold images.
+- Appropriate image fallbacks.
+- Useful empty and error states.
+
+The admin dashboard must be usable on a mobile phone, not just desktop.
+
+---
+
+# 17. FRONTEND SEO AND PERFORMANCE
+
+Implement frontend SEO foundations:
+- Page-specific titles
+- Meta descriptions
+- Semantic HTML
+- Clean URL slugs
+- Open Graph metadata where practical
+- Canonical URL support where practical
+- Breadcrumb UI
+- Accessible image alt text
+- Proper heading hierarchy
+
+Do not implement a backend or server-rendering system for this step.
+
+Avoid:
+- Unnecessary heavy dependencies
+- Duplicate requests
+- Excessive animation
+- Unoptimized huge images
+- Layout shifts
+- Broken image URLs
+- Console errors
+
+If an SEO or deployment feature requires backend or hosting configuration, document it for a later step rather than building a backend now.
+
+---
+
+# 18. ROUTING
+
+Use the existing router if available. Otherwise use the lightest appropriate routing solution already supported by the project.
+
+Required public routes:
+
+/
+ /destinations
+ /destinations/:stateSlug
+ /places/:slug
+ /blog
+ /blog/:slug
+ /category/:slug
+ /gallery
+ /about
+ /contact
+
+Required admin UI routes:
+
+/admin
+/admin/login
+/admin/articles
+/admin/articles/new
+/admin/articles/:id/edit
+/admin/gallery
+/admin/destinations
+/admin/categories
+/admin/settings
+
+Also provide a usable 404 page.
+
+If using client-side routing, document any Vercel/Netlify SPA fallback configuration needed later.
+
+Do not build authentication protection in Step 1. Clearly label admin routes as frontend prototypes until Firebase Authentication is implemented.
+
+---
+
+# 19. FINAL EXECUTION INSTRUCTIONS
+
+Follow this order:
+
+1. Inspect the existing repository.
+2. Identify existing features that must be preserved.
+3. Build the complete shared design system.
+4. Implement the public homepage and navigation.
+5. Implement destinations and destination details.
+6. Implement blog listings and article detail pages.
+7. Implement the photo gallery and lightbox.
+8. Implement contact and social links.
+9. Preserve and improve existing booking/enquiry UI.
+10. Implement the frontend-only admin dashboard.
+11. Implement the frontend-only article editor.
+12. Implement the frontend-only gallery management screen.
+13. Test mobile and desktop layouts.
+14. Run the existing build command if tools are available.
+15. Fix TypeScript errors, missing imports, broken routes and CSS issues.
+
+Do not stop after showing a plan, design description or screenshot.
+
+Generate and modify the actual project files.
+
+If output limits prevent completing everything in one response, continue working against the current repository state and clearly identify what remains unfinished. Do not regenerate the whole application from scratch.
+
+## FINAL ACCEPTANCE CRITERIA
+
+The result must:
+- Be a complete, modern frontend for Desi Musafir.
+- Use Indian destinations and Indian travel imagery only.
+- Have a premium travel magazine aesthetic.
+- Include homepage, destinations, blog, article pages and photo gallery.
+- Include frontend-only admin dashboard screens.
+- Include frontend-only article and gallery management interfaces.
+- Include working client-side search, filters and lightbox.
+- Include the correct phone, WhatsApp, Gmail, Instagram and Facebook links.
+- Preserve existing booking and enquiry features.
+- Work on mobile and desktop.
+- Use free/open-source frontend tools where practical.
+- Build successfully with the existing Vite project where the environment permits.
+- Contain no Firebase integration or backend code in Step 1.
+- Clearly distinguish prototype functionality from real backend functionality.
+
+The next stage, only after this frontend is reviewed and approved, will be Firebase Authentication, Cloud Firestore and image storage integration using an appropriate Firebase free-tier setup.
+
+**Start now with Step 1 only: inspect the existing project and implement the complete frontend UI.**

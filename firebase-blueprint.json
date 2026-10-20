@@ -1,0 +1,165 @@
+{
+  "entities": {
+    "article": {
+      "title": "Travel Article",
+      "description": "Editorial travel article about an Indian journey",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 300 },
+        "slug": { "type": "string", "maxLength": 150, "pattern": "^[a-z0-9-]+$" },
+        "subtitle": { "type": "string", "maxLength": 500 },
+        "excerpt": { "type": "string", "maxLength": 1000 },
+        "coverImage": { "type": "string", "maxLength": 2048 },
+        "coverImageAlt": { "type": "string", "maxLength": 300 },
+        "category": { "type": "string", "maxLength": 100 },
+        "categorySlug": { "type": "string", "maxLength": 100 },
+        "destination": { "type": "string", "maxLength": 100 },
+        "destinationSlug": { "type": "string", "maxLength": 100 },
+        "state": { "type": "string", "maxLength": 100 },
+        "stateSlug": { "type": "string", "maxLength": 100 },
+        "country": { "type": "string", "enum": ["India"] },
+        "readTime": { "type": "string", "maxLength": 50 },
+        "status": { "type": "string", "enum": ["draft", "published"] },
+        "isFeatured": { "type": "boolean" },
+        "content": { "type": "string", "maxLength": 50000 },
+        "authorName": { "type": "string", "maxLength": 100 },
+        "authorRole": { "type": "string", "maxLength": 100 },
+        "authorUid": { "type": "string", "maxLength": 128 },
+        "seoTitle": { "type": "string", "maxLength": 200 },
+        "seoDescription": { "type": "string", "maxLength": 500 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "slug", "excerpt", "coverImage", "status", "country", "createdAt", "updatedAt"]
+    },
+    "galleryItem": {
+      "title": "Gallery Photograph",
+      "description": "Curated photograph of Indian destinations",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 200 },
+        "caption": { "type": "string", "maxLength": 1000 },
+        "altText": { "type": "string", "maxLength": 300 },
+        "imageUrl": { "type": "string", "maxLength": 2048 },
+        "cloudinaryPublicId": { "type": "string", "maxLength": 256 },
+        "state": { "type": "string", "maxLength": 100 },
+        "destination": { "type": "string", "maxLength": 100 },
+        "categorySlug": { "type": "string", "maxLength": 100 },
+        "photoCredit": { "type": "string", "maxLength": 150 },
+        "status": { "type": "string", "enum": ["draft", "published"] },
+        "featured": { "type": "boolean" },
+        "uploaderUid": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "imageUrl", "state", "destination", "categorySlug", "status", "createdAt", "updatedAt"]
+    },
+    "destination": {
+      "title": "Indian Destination",
+      "description": "Indian travel destination guide and information",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 150 },
+        "slug": { "type": "string", "maxLength": 100, "pattern": "^[a-z0-9-]+$" },
+        "state": { "type": "string", "maxLength": 100 },
+        "stateSlug": { "type": "string", "maxLength": 100 },
+        "country": { "type": "string", "enum": ["India"] },
+        "categorySlugs": { "type": "array" },
+        "heroImage": { "type": "string", "maxLength": 2048 },
+        "heroImageAlt": { "type": "string", "maxLength": 300 },
+        "excerpt": { "type": "string", "maxLength": 1000 },
+        "description": { "type": "string", "maxLength": 10000 },
+        "duration": { "type": "string", "maxLength": 100 },
+        "budgetRange": { "type": "string", "maxLength": 100 },
+        "isFeatured": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "slug", "state", "country", "createdAt", "updatedAt"]
+    },
+    "category": {
+      "title": "Travel Theme Category",
+      "description": "Travel styles across India",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "maxLength": 100 },
+        "slug": { "type": "string", "maxLength": 100, "pattern": "^[a-z0-9-]+$" },
+        "tagline": { "type": "string", "maxLength": 300 },
+        "description": { "type": "string", "maxLength": 1000 },
+        "coverImage": { "type": "string", "maxLength": 2048 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "slug", "tagline", "createdAt", "updatedAt"]
+    },
+    "admin": {
+      "title": "Administrator Profile",
+      "description": "Whitelisted administrator UID record",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "maxLength": 150 },
+        "role": { "type": "string", "enum": ["admin"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["email", "role", "createdAt"]
+    },
+    "bookingEnquiry": {
+      "title": "Travel Booking Enquiry",
+      "description": "Visitor travel inquiry for Indian destinations",
+      "type": "object",
+      "properties": {
+        "fullName": { "type": "string", "maxLength": 100 },
+        "phone": { "type": "string", "maxLength": 20 },
+        "email": { "type": "string", "maxLength": 100 },
+        "destination": { "type": "string", "maxLength": 150 },
+        "travelDate": { "type": "string", "maxLength": 50 },
+        "travellersCount": { "type": "string", "maxLength": 20 },
+        "duration": { "type": "string", "maxLength": 50 },
+        "budgetRange": { "type": "string", "maxLength": 100 },
+        "message": { "type": "string", "maxLength": 2000 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["fullName", "phone", "email", "destination", "createdAt"]
+    },
+    "newsletter": {
+      "title": "Newsletter Subscription",
+      "description": "Email subscriber for travel updates",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "maxLength": 150 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["email", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/articles/{articleId}": {
+      "schema": { "$ref": "article" },
+      "description": "Published and draft travel stories"
+    },
+    "/gallery/{galleryId}": {
+      "schema": { "$ref": "galleryItem" },
+      "description": "Indian photography gallery items"
+    },
+    "/destinations/{destinationId}": {
+      "schema": { "$ref": "destination" },
+      "description": "Indian destination guides"
+    },
+    "/categories/{categoryId}": {
+      "schema": { "$ref": "category" },
+      "description": "Travel categories and styles"
+    },
+    "/admins/{uid}": {
+      "schema": { "$ref": "admin" },
+      "description": "Authorized administrator UIDs"
+    },
+    "/enquiries/{enquiryId}": {
+      "schema": { "$ref": "bookingEnquiry" },
+      "description": "Customer trip enquiries"
+    },
+    "/newsletter/{subscriberId}": {
+      "schema": { "$ref": "newsletter" },
+      "description": "Captured newsletter emails"
+    }
+  }
+}
